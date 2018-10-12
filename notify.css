@@ -1,0 +1,276 @@
+body{
+    font-family: 'Arial', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    direction: ltr;
+}
+.section{
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1180px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.float_left{
+    float: left;
+}
+
+.float_right{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+
+.hero{
+    border-top: 5px solid #2ecc71;
+    background-image: url("../img/notify/hero.jpg");
+}
+
+.leftHero{
+    width: 50%;
+    padding-left: 117px;
+    box-sizing: border-box;
+}
+.rightHero{
+    width: 50%;
+    padding: 0px;
+    /*margin-top: 80px;*/
+    box-sizing: border-box;
+}
+.logo{
+    margin-top: 180px;
+    font-family: 'Pacifico', cursive;
+    font-size: 60px;
+    color: #FFF;
+    font-weight: normal;
+    text-align: left;
+}
+
+.greenLogo{
+    color: #2ecc71;
+}
+
+.leftHero p{
+    font-size: 24px;
+    color: #FFF;
+    text-align: left;
+    line-height: 30px;
+}
+.leftHero ul{
+    text-align: left;
+    padding-left: 0px;
+}
+.leftHero ul li{
+    width: 53px;
+    height: 53px;
+    background-color: #37241b;
+    border-radius: 50%;
+    opacity: 0.5;
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 22px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 30px;
+}
+.leftHero ul li:first-child{
+    margin-left: 0px;
+}
+.leftHero ul li:hover, .leftHero ul li.active{
+    background-color: #2ecc71;
+}
+
+.leftHero ul li a{
+    width:100%;/* حتى يشمل كل li */
+    height: 100%;
+    color: #b2a096;
+    display: inline-block;
+    line-height: 53px;
+}
+
+.leftHero ul li a:hover, .leftHero ul li a.active{
+    color: #f4f4f4;
+}
+
+/* features  */
+.features{
+    background-color: #FFF;
+    margin: 60px 0px;
+}
+.row{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+.grid2{
+    width: 50%;
+    height: auto;
+    box-sizing: border-box;
+    float: left;
+}
+.grid3{
+    width: 33.3%;
+    height: auto;
+    box-sizing: border-box;
+    float: left;
+}
+
+.features .featureIcon{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #2ecc71;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 40px;
+    color: #FFF;
+    line-height: 100px;
+    /*display: inline-block;*/
+}
+
+.features h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    color: #222222;
+    padding: 30px 0px;
+    font-weight: bold;
+}
+
+.features p{
+    font-size: 16px;
+    color: #848484;
+    padding: 0px;
+    margin: 0px 30px;
+    line-height: 25px;
+}
+
+/* info section */
+.info{
+    background-color: #e3e3e3;
+    padding: 60px;
+}
+
+.info h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    color: #222222;
+    text-align: left;
+}
+
+.info p{
+    font-size: 16px;
+    color: #848484;
+    text-align: left;
+    line-height: 25px;
+    padding-right: 30px;
+}
+
+.infoForm{
+    width: 100%;
+    text-align: left;
+}
+
+.infoField{
+    width: 300px;
+    height: auto;
+    padding: 19px;
+    font-size: 18px;
+    border: 0px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin: 0px;
+}
+
+.infoBtn{
+    width: 140px;
+    height: auto;
+    padding: 16px;
+    background-color: #2ecc71;
+    color: #FFF;
+    border: 0px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-size: 22px;
+}
+
+/* joinUs  */
+.joinUs{
+    margin: 60px 0px;
+    background-color: #FFF; 
+}
+
+.joinUs p{
+    font-size: 18px;
+    color: #848484;
+    width: 80%;
+    margin: 0px auto;
+}
+
+.joinUs h5{
+    font-size: 18px;
+    color: #848484;
+    font-weight: bold;
+    margin: 25px 0px;
+}
+
+.joinUs h4{
+    font-size: 24px;
+    color: #000000;
+    font-weight: bold;
+    margin: 60px 0px 20px 0px;
+}
+
+.joinUs ul{
+    width: 90%;
+    text-align: center;
+}
+
+.joinUs ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.joinUs ul li.socialIcons{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #d4d4d4;
+    color: #FFF;
+    font-size: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    line-height: 35px;
+    display: inline-block;
+}
+.joinUs ul li.socialIcons:hover, .joinUs ul li.active{
+    background-color: #62d995;
+    color: #FFF;
+}
+
+/* footer */
+.footer{
+    background-color: #e3e3e3;
+    padding: 60px 0px;
+}
+
+.footer ul{
+    width: 90%;
+    text-align: center;
+}
+
+.footer ul li{
+    list-style-type: none;
+    display: inline-block;
+    font-size: 16px;
+    color: #848484;
+    padding-left: 40px;
+}
