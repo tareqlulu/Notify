@@ -31,7 +31,7 @@ body{
 
 .hero{
     border-top: 5px solid #2ecc71;
-    background-image: url("../img/notify/hero.jpg");
+    background-image: url("img/hero.jpg");
 }
 
 .leftHero{
